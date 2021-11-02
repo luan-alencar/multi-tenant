@@ -1,0 +1,6 @@
+version: '2'
+services:
+  atividade-mysql:
+    extends:
+      service: atividade-mysql
+      file: mysql.yml

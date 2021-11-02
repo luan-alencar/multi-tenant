@@ -1,0 +1,9 @@
+version: '2'
+services:
+  atividade-mysql:
+    image: mysql:5.7.36
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=
+    ports:
+      - "3306"
